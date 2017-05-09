@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+background-image: url("wallpaper.jpg");
+}
+
+h1 {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 65px;
+  padding: 5px 50px;
+
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+}
+
+ #elegantshadow {
+    color: #FFC300  ;
+
+     background-image: url("wallpaper.jpg");
+    letter-spacing: .15em;
+    text-shadow: 
+      1px -1px 0 #dbd2d2, 
+      -1px 2px 1px #dbd2d2, 
+      -2px 4px 1px #dbd2d2, 
+      -3px 6px 1px #000000, 
+      -4px 8px 1px #7b7a7a, 
+      -5px 10px 1px #7f7d7d, 
+      -6px 12px 1px #828181, 
+      -7px 14px 1px #868585;
+  }
+
+
+td{
+border:2px solid #FFC300;
+background-color:white;
+color:#FFC300;
+padding-left: 8px;
+padding-top: 4px;
+padding-bottom: 4px;
+font-size:20px;
+
+}
+
+th {
+border:5px solid #FFC300;
+background-color: #FFC300;
+color:#ffffff;
+
+font-size:20px; 
+height:40px; 
+}
+
+
+table{
+width:100% ;
+background-color:white;
+color: #FFC300;
+font-size:20px;
+border:5px solid #FFC300;
+border-collapse: collapse;
+}
+
+
+.button {
+    background-color: #FFC300; 
+    border: none;
+    color: white;
+    border-radius: 12px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button1 {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+</style>
+</head>
+<body>
+<br/>
+
+<a href="LoggedIn.php" ><img src="img/return4.png" width="30" height="30" alt="Back"> </a><font size="5px" weight="600" color="#8A0651"><b>Back</b></font><br/><br/>
+
+
+<h1 id="elegantshadow">MOBILE PHONES</h1>
+<form action="recommend_mobilephones.php" method="post">
+<table>
+<tr>
+<font color="#003300"><th>See Recommendations</th>
+<th>Post Recommendations</th></font>
+</tr>
+<tr>
+
+<td>Brand Name : 
+<div
+ style="height:150px;width:160px;border:1px solid  
+#ccc;font:16px/26px Georgia,  
+Garamond,Serif;overflow:auto;">
+
+<font color="#003300">
+<a href="mobilereviews.html"
+target="_blank">Samsung</a>
+<br>
+<a href="Apple.html"
+target="_blank">Apple</a>
+<br>
+<a href="Lenovo.html"
+target="_blank">Lenovo</a>
+<br>
+<a href="Moto.html"
+target="_blank">Motorola</a>
+<br>
+<a href="vivo.html"
+target="_blank">Vivo</a>
+<br>
+<a href="mi.html"
+target="_blank"> MI </a>
+<br>
+<a href="Windows.html"
+target="_blank">Windows Phone</a></font>
+
+</td>
+</div>
+</td>
+<td>Name of the Model : <input type="text"  name="model" value=" "><br></td>
+</tr>
+
+<tr>
+<td></td>
+<td>Name of the brand : <input type="text" name="brand" value=" "></td>
+</tr>
+
+<tr>
+<td></td>
+<td>Special Feature(s) : <input type="text" name="specialFeature"  value=" "></td>
+</tr>
+
+<tr>
+<td></td>
+<td>Reviews : <input type="text" name="reviews" value=" "></td>
+</tr>
+
+</table>
+
+<button class="button button1">Recommend</button>
+
+</form>
+
+</body>
+</html>

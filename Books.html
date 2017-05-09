@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+
+body{
+      background-image: url("wallpaper.jpg");
+     }
+
+.button {
+    background-color: #11139A; 
+    border: none;
+    color: white;
+    border-radius: 12px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button1 {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  
+}
+
+
+h1 {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 65px;
+  padding: 5px 50px;
+
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+}
+  
+  #elegantshadow {
+    color: #11139A;
+
+    /*background-color: #e7e5e4;*/
+    background-image: url("wallpaper.jpg");
+    letter-spacing: .15em;
+    text-shadow: 
+      1px -1px 0 #dbd2d2, 
+      -1px 2px 1px #dbd2d2, 
+      -2px 4px 1px #dbd2d2, 
+      -3px 6px 1px #000000, 
+      -4px 8px 1px #7b7a7a, 
+      -5px 10px 1px #7f7d7d, 
+      -6px 12px 1px #828181, 
+      -7px 14px 1px #868585;
+      
+      
+      
+      
+      
+  }
+
+td{
+border:2px solid #11139A;
+background-color:white;
+color:#11139A;
+padding-left: 8px;
+padding-top: 4px;
+padding-bottom: 4px;
+font-size:20px;
+}
+
+th {
+border:5px solid #11139A;
+background-color:#11139A;
+color:#ffffff;
+
+font-size:20px; 
+height:40px; 
+}
+
+
+table{
+width:100% ;
+background-color:white;
+color:#11139A;
+font-size:20px;
+border:5px solid #11139A;
+border-collapse: collapse;
+}
+
+.buttonGo {
+
+border-radius: 9px;
+background-color:#11139A;
+border: none;
+padding: 8px 5px;
+text-align: center;
+font-size: 15px;
+cursor: pointer;
+color : #ffffff;
+
+}
+
+
+</style>
+</head>
+<body>
+<br/>
+
+<a href="LoggedIn.php" ><img src="img/return4.png" width="30" height="30" alt="Back"> </a><font size="5px" weight="600" color="#8A0651"><b>Back</b></font><br/><br/>
+
+<h1 id="elegantshadow">BOOKS</h1>
+
+<form action = "recommend_books.php" method="post"> 
+
+<table>
+<tr>
+<th>See Recommendations</th>
+<th>Post Recommendations</th>
+</tr>
+
+<tr>
+
+
+<td>
+
+ </td>
+<td>Name of the Book :<input type="text" name="book" value=" "><br></td>
+</tr>
+
+
+<tr>
+<td >Genre :
+<div
+ style="height:100px;width:155px;border:1px solid  
+#ccc;font:16px/26px Georgia,  
+Garamond,Serif;overflow:auto;">
+
+<select>
+  <option value="Select" name="select">SELECT</option>
+  <option value="Action Thriller" name="action">Action Thriller</option>
+  <option value="Adventure" name="adventure">Adventure</option>
+  <option value="Angst" name="angst">Angst</option>
+  <option value="Anthologies" name="anthologies">Anthologies</option>
+  <option value="Autobiographies" name="autobiographies">Autobiographies</option>
+  <option value="Biographies" name="biographies">Biographies</option>
+  <option value="Comics" name="comics">Comics</option>
+  <option value="Cooking" name="cooking">Cooking</option>
+  <option value="Crime" name="crime">Crime</option>
+  <option value="Drama" name="drama">Drama</option>
+  <option value="Encyclopedias" name="encyclopedias">Encyclopedias</option>
+  <option value="Fantasy" name="fantasy">Fantasy</option>
+  <option value="Mystery and Suspense" name="mystery_suspense">Mystery and Suspense</option>
+  <option value="Political" name="political">Political</option>
+  <option value="Romance" name="romance">Romance</option>
+  <option value="Satire" name="satire">Satire</option>
+  <option value="Sci-fi" name="sci_fi">Sci-fi</option>
+  <option value="Self-help" name="self_help">Self Help</option>
+</select>
+
+
+<center>
+<a class="btn"  href="booksreviews.html">Search</a>
+
+</center>
+
+
+<!--<a href="default.asp"
+target="_blank">Action Thriller</a>
+<br>
+<a href="default.asp"
+target="_blank">Adventure</a>
+<br>
+<a href="booksreviews.html"
+target="_blank">Angst</a>
+<br>
+<a href="default.asp"
+target="_blank">Anthologies</a>
+<br>
+<a href="default.asp"
+target="_blank">Autobiographies</a>
+<br>
+<a href="default.asp"
+target="_blank">Biographies</a>
+<br>
+<a href="default.asp"
+target="_blank">Comics</a>
+<br>
+<a href="default.asp"
+target="_blank">Cooking</a>
+<br>
+<a href="default.asp"
+target="_blank">Crime</a>
+<br>
+<a href="default.asp"
+target="_blank">Drama</a>
+<br>
+<a href="default.asp"
+target="_blank">Encyclopedias</a>
+<br>
+<a href="default.asp"
+target="_blank">Fantasy</a>
+<br>
+<a href="default.asp"
+target="_blank">Horror</a>
+<br>
+<a href="default.asp"
+target="_blank">Mystery & Suspense</a>
+<br>
+<a href="default.asp"
+target="_blank">Political</a>
+<br>
+<a href="default.asp"
+target="_blank">Romance</a>
+<br>
+<a href="default.asp"
+target="_blank">Satire</a>
+<br>
+<a href="default.asp"
+target="_blank">Sci-fi</a>
+<br>
+<a href="default.asp"
+target="_blank">Selp-help</a>
+<br>
+-->
+
+</td>
+</div>
+<td id="author">Author:<input type="text" name="author" value="  "></td>
+</tr>
+
+<tr>
+<td></td>
+<td>Genre :<input type="text" name="genre" value=" "> 
+Reviews :<input type="text" name="reviews" value=" "></td>
+</tr>
+</table>
+
+<button class="button recommend">Recommend</button>
+<br>
+</form>
+</body>
+</html>
+
+
+
+
+

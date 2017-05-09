@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+body{
+background-image: url("wallpaper.jpg");
+}
+
+.button {
+    background-color: #DC143C; 
+    border: 1px solid black;
+    color: white;
+    border-radius: 12px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button1 {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+h1 {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 65px;
+  padding: 5px 50px;
+
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+}
+  
+  #elegantshadow {
+    color: #DC143C;
+
+   
+      background-image: url("wallpaper.jpg");
+    letter-spacing: .15em;
+    text-shadow: 
+      1px -1px 0 #dbd2d2, 
+      -1px 2px 1px #dbd2d2, 
+      -2px 4px 1px #dbd2d2, 
+      -3px 6px 1px #000000, 
+      -4px 8px 1px #7b7a7a, 
+      -5px 10px 1px #7f7d7d, 
+      -6px 12px 1px #828181, 
+      -7px 14px 1px #868585;
+  }
+
+td{
+border:2px solid #DC143C;
+background-color:white;
+color:#DC143C;
+padding-left: 8px;
+padding-top: 4px;
+padding-bottom: 4px;
+font-size:20px;
+}
+
+th {
+border:5px solid #DC143C;
+background-color:#DC143C;
+color:#ffffff;
+
+font-size:20px; 
+height:40px; 
+}
+
+
+table{
+width:100% ;
+background-color:white;
+color:#DC143C;
+font-size:20px;
+border:5px solid #DC143C;
+border-collapse: collapse;
+}
+
+.buttonGo1 {
+
+border-radius: 9px;
+background-color:#DC143C;
+border: none;
+padding: 8px 5px;
+text-align: center;
+font-size: 15px;
+cursor: pointer;
+color : #ffffff;
+
+}
+
+
+
+</style>
+</head>
+
+
+
+
+<body>
+
+<br/>
+
+<a href="LoggedIn.php" ><img src="img/return4.png" width="30" height="30" alt="Back"> </a><font size="5px" weight="600" color="#8A0651"><b>Back</b></font><br/><br/>
+ 
+
+<h1 id="elegantshadow">MOVIES</h1>
+
+<form action="recommend_movies.php" method="post">
+
+<table>
+<tr>
+<th>See Recommendations</th>
+<th>Post Recommendations</th>
+</tr>
+
+<tr>
+
+
+<td> </td>
+<td>Name of the Movie :<input type="text" name="movie" value=" "><br></td>
+</tr>
+
+
+<tr>
+<td >Genre :
+<div
+ style="height:160px;width:155px;border:1px solid  
+#ccc;font:16px/26px Georgia,  
+Garamond,Serif;overflow:auto;">
+
+
+<a href="default.asp"
+target="_blank">Comedy</a>
+<br>
+<a href="moviereviews.html"
+target="_blank">Horror</a>
+<br>
+<a href="booksreviews.html"
+target="_blank">Romance</a>
+<br>
+<a href="default.asp"
+target="_blank">Crime Thriller</a>
+<br>
+<a href="default.asp"
+target="_blank">Mystery</a>
+<br>
+<a href="default.asp"
+target="_blank">Musical</a>
+<br>
+<a href="default.asp"
+target="_blank">Drama</a>
+<br>
+<a href="default.asp"
+target="_blank">Biography</a>
+<br>
+<a href="default.asp"
+target="_blank">War</a>
+<br>
+<a href="default.asp"
+target="_blank">Documentary</a>
+<br>
+<a href="default.asp"
+target="_blank">History</a>
+<br>
+
+
+</td>
+</div>
+<td id="author">Director:<input type="text" name="director" value="  "></td>
+</tr>
+
+<tr>
+<td></td>
+<td>Genre :<input type="text" name="genre" value=" "> 
+Reviews :<input type="text" name="reviews" value=" "></td>
+</tr>
+
+
+
+
+
+</table>
+
+<button class="button button1">Recommend</button>
+</td>
+</tr>
+</form>
+
+</body>
+</html>
