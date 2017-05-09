@@ -1,0 +1,13 @@
+table{
+	margin-top: 20px;
+	margin: 100px;
+	width: 100%;
+}
+
+td{
+	padding-bottom: 60px;
+}
+
+li{
+	list-style-type: none;
+}

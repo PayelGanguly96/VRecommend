@@ -1,0 +1,254 @@
+@import url('normalize.css');
+
+/* General Demo Style */
+body{
+	font-family: Cambria, Georgia, serif;
+	background: #fff ;
+	font-weight: 300;
+	font-size: 20px;
+	
+	-webkit-font-smoothing: antialiased;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.container{
+	width: 100%;
+	position: relative;
+
+}
+
+.main{
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	background: #fff;
+}
+.container > header{
+	margin: 10px;
+	padding: 20px 10px 10px 10px;
+	position: relative;
+	display: block;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+
+    text-align: center;
+}
+.container > header h1{
+	font-size: 40px;
+	line-height: 40px;
+	margin: 0;
+	position: relative;
+	font-weight: 300;
+	color:#8A0651;
+	text-shadow: 0px 0px 0px rgba(255,255,255,0.7);
+}
+.container > header h2{
+	font-size: 12px;
+	font-weight: 300;
+	font-style: italic;
+	margin: 0;
+	padding: 15px 0 5px 0;
+	color: #456;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.9);
+}
+/* Header Style */
+.codrops-top{
+	line-height: 24px;
+	font-size: 11px;
+	background: #181818;
+	background: rgba(255, 255, 255, 0.6);
+	text-transform: uppercase;
+	z-index: 222s;
+	position: relative;
+	box-shadow: 0px 0px 0px rgba(0,0,0,0.1);
+
+}
+.codrops-top a{
+	padding: 0px 10px;
+	letter-spacing: 1px;
+	color: #333;
+	display: inline-block;
+}
+.codrops-top a:hover{
+	background:rgba(255,255,255,0.3);
+}
+.codrops-top span.right{
+	float: right;
+}
+.codrops-top span.right a{
+	float: left;
+	display: block;
+}
+/* Demo Buttons Style */
+.codrops-demos{
+    text-align:center;
+	display: block;
+	line-height: 30px;
+	padding: 5px 0px;
+	font-family: bookman old style;
+
+}
+.codrops-demos a{
+    display: inline-block;
+	font-style: bold;
+	margin: 0px 4px;
+	padding: 0px 6px;
+	color: #2c3e50;
+	line-height: /*20px;*/42px;	
+	font-size: /*13px;*/35px;
+	text-shadow: 0px 0px 0px #fff;
+	border: 2px solid #fff;
+	border-radius: 12px;
+	background: #fff; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(47%,#f6f6f6), color-stop(100%,#ededed)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* IE10+ */
+	background: linear-gradient(top, #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+	box-shadow: 0 0px 0px rgba(0, 0, 0, 0.3);
+}
+.codrops-demos a:hover{
+	color: #181818;
+	background: #8A0651;
+}
+.codrops-demos a:active{
+	background: #8A0651;
+	color: #181818;
+}
+.codrops-demos a.current-demo,
+
+.codrops-demos a.current-demo:hover{
+	background: #8A0651;
+	border-color: #181818;
+	color: #fff;
+	box-shadow: 1px 2px 2px rgba(255,255,255,0.9);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f6f6', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
+}
+
+.support-note span{
+	color: #ac375d;
+	font-size: 16px;
+	display: none;
+	font-weight: bold;
+	text-align: center;
+	padding: 5px 0;
+}
+.no-cssanimations .support-note span.no-cssanimations,
+.no-csstransforms .support-note span.no-csstransforms,
+.no-csstransforms3d .support-note span.no-csstransforms3d,
+.no-csstransitions .support-note span.no-csstransitions{
+	display: block;
+}
+
+.btn-outline {
+    margin-top: 15px;
+    border: solid 2px red;
+    font-size: 20px;
+    color: red;
+    background: white;
+    transition: all .3s ease-in-out;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    border: solid 2px white;
+    color: white;
+    background: red;
+}
+
+.btn-social {
+    display: inline-block;
+    position: relative;
+    float: left;
+     vertical-align: top;
+    width: 50px;
+    height: 50px;
+    border: 2px solid red;
+    color:red;
+    background: white;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active {
+    outline: 0;
+
+}
+
+.btn-social1 {
+    display: inline-block;
+    position: relative;
+    float: left;
+     vertical-align: top;
+    width: 50px;
+    height: 50px;
+    border: 2px solid blue;
+    color: blue;
+    background: white;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.btn-outline1 {
+    margin-top: 15px;
+    border: solid 2px blue;
+    font-size: 20px;
+    color: blue;
+    background: white;
+    transition: all .3s ease-in-out;
+}
+
+.btn-outline1:hover,
+.btn-outline1:focus,
+.btn-outline1:active,
+.btn-outline1.active {
+    border: solid 2px white;
+    color: white;
+    background: blue;
+}
+
+
+.btn-social2 {
+    display: inline-block;
+    position: relative;
+    float: left;
+     vertical-align: top;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #660000;
+    color: #660000;
+    background: #ffcccc;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.btn-outline2 {
+    margin-top: 15px;
+    border: solid 2px #660000;
+    font-size: 20px;
+    color: #660000;
+    background: white;
+    transition: all .3s ease-in-out;
+}
+
+.btn-outline2:hover,
+.btn-outline2:focus,
+.btn-outline2:active,
+.btn-outline2.active {
+    border: solid 2px white;
+    color: white;
+    background: #660000;
+}
+
